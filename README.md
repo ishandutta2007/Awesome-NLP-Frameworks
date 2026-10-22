@@ -58,93 +58,93 @@ The following table indexes leading managed NLP cloud services and proprietary A
 
 ## ⚡ Open-Source GitHub Frameworks
 
-The following open-source frameworks and libraries represent the foundational building blocks of modern NLP engineering. Repositories are listed in descending order by **GitHub Star Count**, with live stargazer metrics.
+The following open-source frameworks and libraries represent the foundational building blocks of modern NLP engineering. Repositories are listed in descending order by **GitHub Stars_Count**, with live stargazer metrics.
 
-1. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
+1. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
    - 📜 **License**: Apache 2.0  
    - 🎯 **Focus**: The definitive ecosystem for state-of-the-art transformer architectures (BERT, RoBERTa, DeBERTa, T5, LLaMA, Mistral).  
    - 💡 **Key Strengths**: Unified API interoperable across PyTorch, TensorFlow, and JAX. Reaches ~93–94 F1 on CoNLL-2003 NER with fine-tuned checkpoints. Provides direct integration with Hugging Face Hub for instant checkpoint downloads and model sharing.  
    - 🏆 **Best For**: Cutting-edge research, custom LLM fine-tuning, and high-accuracy supervised sequence modeling where GPU acceleration is standard.
 
-2. **[spaCy](https://github.com/explosion/spaCy)** [![GitHub Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
+2. **[spaCy](https://github.com/explosion/spaCy)** [![GitHub_Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
    - 📜 **License**: MIT  
    - 🎯 **Focus**: Industrial-strength, high-speed NLP in Python and Cython.  
    - 💡 **Key Strengths**: Processes up to **50,000 tokens per second** on CPU. Structured single `Doc` container preserves tokens, POS tags, syntactic dependencies, and named entities in memory. Features `nlp.pipe()` for batched document streams and native support for 75+ natural languages.  
    - 🏆 **Best For**: High-throughput production web applications, ETL pipelines, and CPU-constrained microservices prioritizing latency over raw GPU F1 gains.
 
-3. **[fastText](https://github.com/facebookresearch/fastText)** [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/fastText?style=social&color=white)](https://github.com/facebookresearch/fastText/stargazers)  
+3. **[fastText](https://github.com/facebookresearch/fastText)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/fastText?style=social&color=white)](https://github.com/facebookresearch/fastText/stargazers)  
    - 📜 **License**: MIT  
    - 🎯 **Focus**: Ultra-fast text classification and subword-level word representation learning from Meta AI Research.  
    - 💡 **Key Strengths**: Trains classifiers on millions of text documents in seconds using bag-of-words and n-gram tricks. Character n-gram embeddings elegantly solve out-of-vocabulary (OOV) tokens and morphologically rich languages.  
    - 🏆 **Best For**: Low-latency edge inference, language identification, intent routing, and massive-scale sentiment filtering.
 
-4. **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![GitHub Stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers)  
+4. **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![GitHub_Stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers)  
    - 📜 **License**: Apache 2.0  
    - 🎯 **Focus**: State-of-the-art dense semantic sentence, paragraph, and image embeddings for vector search.  
    - 💡 **Key Strengths**: Computes dense vector representations that can be compared using cosine similarity; speeds up semantic search over brute-force BERT cross-encoders by a factor of 10,000x. Direct integration with vector databases like Chroma, FAISS, Milvus, and Qdrant.  
    - 🏆 **Best For**: Retrieval-Augmented Generation (RAG), semantic document deduplication, clustering, and neural search engines.
 
-5. **[Gensim](https://github.com/piskvorky/gensim)** [![GitHub Stars](https://img.shields.io/github/stars/piskvorky/gensim?style=social&color=white)](https://github.com/piskvorky/gensim/stargazers)  
+5. **[Gensim](https://github.com/piskvorky/gensim)** [![GitHub_Stars](https://img.shields.io/github/stars/piskvorky/gensim?style=social&color=white)](https://github.com/piskvorky/gensim/stargazers)  
    - 📜 **License**: LGPL-2.1  
    - 🎯 **Focus**: Topic modeling, document indexing, and unsupervised semantic similarity for large text corpora.  
    - 💡 **Key Strengths**: Memory-independent algorithms (Word2Vec, FastText, Latent Dirichlet Allocation / LDA, LSI) that stream text files directly from disk without fitting the whole corpus into RAM.  
    - 🏆 **Best For**: Unsupervised topic discovery, corpus clustering, document similarity indexing, and classical vector spaces.
 
-6. **[NLTK](https://github.com/nltk/nltk)** [![GitHub Stars](https://img.shields.io/github/stars/nltk/nltk?style=social&color=white)](https://github.com/nltk/nltk/stargazers)  
+6. **[NLTK](https://github.com/nltk/nltk)** [![GitHub_Stars](https://img.shields.io/github/stars/nltk/nltk?style=social&color=white)](https://github.com/nltk/nltk/stargazers)  
    - 📜 **License**: Apache 2.0  
    - 🎯 **Focus**: Foundational natural language toolkit for education, prototyping, and linguistic research.  
    - 💡 **Key Strengths**: Exhaustive library of statistical algorithms, stemmers (Porter, Snowball), tokenizers (WordPunct, Treebank), chunkers, and 50+ linguistic corpora/lexicons (WordNet, Brown Corpus).  
    - 🏆 **Best For**: Academic computer science curricula, linguistic research, prototyping, and deterministic lexical parsing.
 
-7. **[Flair](https://github.com/flairNLP/flair)** [![GitHub Stars](https://img.shields.io/github/stars/flairNLP/flair?style=social&color=white)](https://github.com/flairNLP/flair/stargazers)  
+7. **[Flair](https://github.com/flairNLP/flair)** [![GitHub_Stars](https://img.shields.io/github/stars/flairNLP/flair?style=social&color=white)](https://github.com/flairNLP/flair/stargazers)  
    - 📜 **License**: MIT  
    - 🎯 **Focus**: SOTA contextual string embeddings and sequential token labeling framework developed by Humboldt University.  
    - 💡 **Key Strengths**: Produces benchmark-leading NER scores (~94 F1 on CoNLL) by combining character-level language models with subword representations. Clean, highly Pythonic object-oriented API for zero-shot and few-shot NER.  
    - 🏆 **Best For**: Mission-critical named entity recognition, biomedical information extraction, and experimental sequence tagging.
 
-8. **[AllenNLP](https://github.com/allenai/allennlp)** [![GitHub Stars](https://img.shields.io/github/stars/allenai/allennlp?style=social&color=white)](https://github.com/allenai/allennlp/stargazers)  
+8. **[AllenNLP](https://github.com/allenai/allennlp)** [![GitHub_Stars](https://img.shields.io/github/stars/allenai/allennlp?style=social&color=white)](https://github.com/allenai/allennlp/stargazers)  
    - 📜 **License**: Apache 2.0  
    - 🎯 **Focus**: Open-source PyTorch-based research library for designing and evaluating deep learning NLP models.  
    - 💡 **Key Strengths**: Clean abstractions for dataset readers, vocabularies, token indexers, and evaluation metrics. Deeply integrated with Allen Institute for AI (AI2) benchmarks.  
    - 🏆 **Best For**: Academic research experimentation, question-answering system design, and custom PyTorch model prototyping.
 
-9. **[Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)** [![GitHub Stars](https://img.shields.io/github/stars/stanfordnlp/CoreNLP?style=social&color=white)](https://github.com/stanfordnlp/CoreNLP/stargazers)  
+9. **[Stanford CoreNLP](https://github.com/stanfordnlp/CoreNLP)** [![GitHub_Stars](https://img.shields.io/github/stars/stanfordnlp/CoreNLP?style=social&color=white)](https://github.com/stanfordnlp/CoreNLP/stargazers)  
    - 📜 **License**: GNU GPL v3+  
    - 🎯 **Focus**: Battle-tested, production-ready Java natural language analysis suite with native web server capabilities.  
    - 💡 **Key Strengths**: Robust rule-based and statistical pipelines for dependency parsing, co-reference resolution, named entity recognition, and sentiment treebanks. Provides a built-in HTTP server for multi-language microservice integration.  
    - 🏆 **Best For**: Java and JVM-centric enterprise architectures, formal grammatical analysis, and deterministic dependency parsing.
 
-10. **[TextBlob](https://github.com/sloria/TextBlob)** [![GitHub Stars](https://img.shields.io/github/stars/sloria/TextBlob?style=social&color=white)](https://github.com/sloria/TextBlob/stargazers)  
+10. **[TextBlob](https://github.com/sloria/TextBlob)** [![GitHub_Stars](https://img.shields.io/github/stars/sloria/TextBlob?style=social&color=white)](https://github.com/sloria/TextBlob/stargazers)  
     - 📜 **License**: MIT  
     - 🎯 **Focus**: Simplified, beginner-friendly Python text processing and sentiment analysis.  
     - 💡 **Key Strengths**: Provides an intuitive, clean interface over NLTK and Pattern. Quick one-line syntax for noun phrase extraction, part-of-speech tagging, spelling correction, and polarity/subjectivity scoring.  
     - 🏆 **Best For**: Rapid prototyping, student projects, hackathons, and lightweight sentiment analysis scripts.
 
-11. **[Pattern](https://github.com/clips/pattern)** [![GitHub Stars](https://img.shields.io/github/stars/clips/pattern?style=social&color=white)](https://github.com/clips/pattern/stargazers)  
+11. **[Pattern](https://github.com/clips/pattern)** [![GitHub_Stars](https://img.shields.io/github/stars/clips/pattern?style=social&color=white)](https://github.com/clips/pattern/stargazers)  
     - 📜 **License**: BSD-3-Clause  
     - 🎯 **Focus**: Web mining, sentiment analysis, machine learning, and linguistic toolkit from CLiPS.  
     - 💡 **Key Strengths**: Bundles web scrapers, crawler modules, HTML parsers, WordNet integration, and n-gram search with natural language parsers for English, Spanish, German, French, and Italian.  
     - 🏆 **Best For**: End-to-end web information harvesting, social data extraction, and classical linguistic analysis.
 
-12. **[Stanza](https://github.com/stanfordnlp/stanza)** [![GitHub Stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social&color=white)](https://github.com/stanfordnlp/stanza/stargazers)  
+12. **[Stanza](https://github.com/stanfordnlp/stanza)** [![GitHub_Stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social&color=white)](https://github.com/stanfordnlp/stanza/stargazers)  
     - 📜 **License**: Apache 2.0  
     - 🎯 **Focus**: Stanford NLP Group's official Python toolkit for accurate multilingual linguistic analysis.  
     - 💡 **Key Strengths**: Out-of-the-box neural pipelines supporting **70+ natural languages** with Universal Dependencies treebank standards. Exceptional grammatical parsing precision and native client access to Stanford CoreNLP Java servers.  
     - 🏆 **Best For**: Cross-lingual comparative linguistics, grammatical tree analysis, and research on under-resourced languages.
 
-13. **[John Snow Labs Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)** [![GitHub Stars](https://img.shields.io/github/stars/JohnSnowLabs/spark-nlp?style=social&color=white)](https://github.com/JohnSnowLabs/spark-nlp/stargazers)  
+13. **[John Snow Labs Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)** [![GitHub_Stars](https://img.shields.io/github/stars/JohnSnowLabs/spark-nlp?style=social&color=white)](https://github.com/JohnSnowLabs/spark-nlp/stargazers)  
     - 📜 **License**: Apache 2.0 (Core)  
     - 🎯 **Focus**: Scalable distributed NLP built directly natively on Apache Spark for big data pipelines.  
     - 💡 **Key Strengths**: Features over **15,000+ free pretrained pipelines and models in 250+ languages**. Operates directly on Spark DataFrames with zero serialization penalties between distributed executors. Specialized domain extensions available for Healthcare, Legal, and Finance.  
     - 🏆 **Best For**: Big data processing pipelines, petabyte-scale data lakes, Spark clusters, and regulated enterprise environments.
 
-14. **[GLiNER](https://github.com/urchade/GLiNER)** [![GitHub Stars](https://img.shields.io/github/stars/urchade/GLiNER?style=social&color=white)](https://github.com/urchade/GLiNER/stargazers)  
+14. **[GLiNER](https://github.com/urchade/GLiNER)** [![GitHub_Stars](https://img.shields.io/github/stars/urchade/GLiNER?style=social&color=white)](https://github.com/urchade/GLiNER/stargazers)  
     - 📜 **License**: Apache 2.0  
     - 🎯 **Focus**: Generalist, lightweight bidirectional transformer for zero-shot Named Entity Recognition.  
     - 💡 **Key Strengths**: Extracts arbitrary entity types on the fly at inference time without requiring any domain-specific labeled training data. Achieves ~48 F1 on zero-shot out-of-domain benchmarks, outperforming large LLMs (GPT-3.5/4) at less than 1% of the model parameter footprint.  
     - 🏆 **Best For**: Dynamic NER schemas, schema-free information extraction, edge deployments, and synthetic data tagging.
 
-15. **[FARM](https://github.com/deepset-ai/FARM)** [![GitHub Stars](https://img.shields.io/github/stars/deepset-ai/FARM?style=social&color=white)](https://github.com/deepset-ai/FARM/stargazers)  
+15. **[FARM](https://github.com/deepset-ai/FARM)** [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/FARM?style=social&color=white)](https://github.com/deepset-ai/FARM/stargazers)  
     - 📜 **License**: Apache 2.0  
     - 🎯 **Focus**: Fast and resilient transfer learning framework for NLP, crafted by deepset (the creators of Haystack).  
     - 💡 **Key Strengths**: Modular multi-task learning architecture with adaptive model heads for question answering, text classification, and token classification. Seamlessly serves as the model-training engine underpinning enterprise Haystack RAG pipelines.  
@@ -178,8 +178,8 @@ Contributions are warmly welcomed! Help keep this ecosystem comprehensive, factu
    ```
 3. **Add or update entries** in `README.md`:
    - Follow the established formatting conventions (License, Focus, Strengths, Best For).
-   - Ensure open-source entries include the live `shields.io` star badge linking to `/stargazers`.
-   - Maintain descending order by star count or SaaS company valuation.
+   - Ensure open-source entries include the live `shields.io` Stars_Badge linking to `/stargazers`.
+   - Maintain descending order by Stars_Count or SaaS company valuation.
 4. **Submit a Pull Request** with a concise summary of the framework and benchmark evidence.
 
 For an extensive directory of awesome developer collections, explore [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
